@@ -1,0 +1,25 @@
+= Webservices documentation =
+
+== Users webservice ==
+
+=== Get default user ===
+
+Curl request:
+
+include::{snippets}/users/curl-request.adoc[]
+
+HTTP request:
+
+include::{snippets}/users/http-request.adoc[]
+
+Request headers:
+
+include::{snippets}/users/request-headers.adoc[]
+
+HTTP response:
+
+include::{snippets}/users/http-response.adoc[]
+
+Response fields:
+
+include::{snippets}/users/response-fields.adoc[]
