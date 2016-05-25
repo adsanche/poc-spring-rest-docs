@@ -1,14 +1,36 @@
 # poc-spring-rest-docs
 Simple POC on Sprint REST Docs tool.
 
-# Maven
-Build + document generation: mvn clean package -e
+## Maven Build + document generation: 
 
-Run the local server: mvn spring-boot:run
+```sh
+mvn clean package -e
+```
 
-# Documentation
-Snippets generated in target/generated-snippets.
+Run the local server: 
 
-Documentation generated in target/generated-docs.
+```sh
+mvn spring-boot:run
+```
 
-ASCIIDOC template in src/main/asciidoc.
+## Documentation
+
+Snippets generated in :
+
+```sh
+> ./target/generated-snippets
+```
+
+
+Documentation generated in :
+
+```sh
+> ./target/generated-docs
+```
+
+ASCIIDOC template in :
+
+
+```sh
+> ./src/main/asciidoc.
+```
