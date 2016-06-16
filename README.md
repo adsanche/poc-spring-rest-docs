@@ -1,5 +1,5 @@
 # poc-spring-rest-docs
-Simple POC on Sprint REST Docs tool.
+Simple POC on Spring REST Docs tool.
 
 ## Maven Build + document generation: 
 
